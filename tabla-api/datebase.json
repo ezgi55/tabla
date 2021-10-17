@@ -2,10 +2,10 @@
   "dev": {
     "driver": "mysql",
     "host": "127.0.0.1",
-    "port": "3305",
+    "port": "3306",
     "user": "root",
     "password": "town1234",
-    "database": "Town_db",
+    "database": "tabla.db",
     "multipleStatements": true
   },
   "sql-file": true,
