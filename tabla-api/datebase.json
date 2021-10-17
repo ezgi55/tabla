@@ -2,7 +2,7 @@
   "dev": {
     "driver": "mysql",
     "host": "127.0.0.1",
-    "port": "3305",
+    "port": "3307",
     "user": "root",
     "password": "town1234",
     "database": "tabla_db",
