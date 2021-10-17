@@ -37,3 +37,4 @@ VALUES ("cafe no8" "cafe" "05338211212" "Nadir Sk");
 INSERT INTO venues (venue_name, venue_type, phone_number, address)
 VALUES ("Pizzavira" "resorant" "05338334433" "Merkez");
 
+//test
