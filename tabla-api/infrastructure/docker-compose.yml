@@ -1,0 +1,20 @@
+version: "3.3"
+services:
+  cc-db:
+    container_name: cc-mysql-db
+    image: mysql:5.7
+    restart: always
+    command: --sql_mode="NO_ENGINE_SUBSTITUTION"
+    environment:
+      MYSQL_DATABASE: "tabladb"
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "town1234"
+      MYSQL_ROOT_PASSWORD: "town1234"
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    volumes:
+      - my-cc-db:/var/lib/mysql
+volumes:
+  my-cc-db:

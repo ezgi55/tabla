@@ -1,8 +1,27 @@
 {
+  "scripts": {
+    "test": "NODE_ENV=test jest --bail --coverage=true --coverageDirectory=coverage-unit",
+    "integration-test": "NODE_ENV=test nyc --reporter=lcov --reporter=json mocha --exit --recursive --timeout 60000 --file ./test/utils/setupTests/index.js",
+    "lint": "node_modules/eslint/bin/eslint.js .",
+    "migrate:new": "node node_modules/db-migrate/bin/db-migrate create",
+    "migrate-up:dry-once": "node node_modules/db-migrate/bin/db-migrate up -c 1 --dry-run",
+    "migrate-up:once": "node node_modules/db-migrate/bin/db-migrate up -c 1",
+    "migrate-up:all": "node node_modules/db-migrate/bin/db-migrate up",
+    "migrate-down:dry-once": "node node_modules/db-migrate/bin/db-migrate down -c 1 --dry-run",
+    "migrate-down:once": "node node_modules/db-migrate/bin/db-migrate down -c 1",
+    "migrate-up:prod:dry-once": "node node_modules/db-migrate/bin/db-migrate up -c 1 -e prod --dry-run",
+    "migrate-up:prod:once": "node node_modules/db-migrate/bin/db-migrate up -c 1 -e prod",
+    "migrate-down:prod:dry-once": "node node_modules/db-migrate/bin/db-migrate down -c 1 -e prod --dry-run",
+    "migrate-down:prod:once": "node node_modules/db-migrate/bin/db-migrate down -c 1 -e prod",
+    "coverage": "npm run merge-coverage && nyc report --reporter=lcov --report-dir=full-coverage/ && node src/tools/openFile/index.js full-coverage/lcov-report/index.html",
+    "merge-coverage": "node src/tools/mergeCoverage/index.js"
+  },
   "devDependencies": {
     "nodemon": "^2.0.13"
   },
   "dependencies": {
+    "db-migrate": "^1.0.0-beta.16",
+    "db-migrate-mysql": "^2.2.0",
     "express": "^4.17.1"
   }
 }
