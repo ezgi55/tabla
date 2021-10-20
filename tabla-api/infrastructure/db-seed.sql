@@ -14,9 +14,9 @@ VALUES ("Cem", "Gokdel", "cemgokdel@gmail.com", "12345", "Girne", "05338219696")
 
 INSERT INTO events (event_name, event_artist, event_date, event_city, event_description, address)
 VALUES ("Halk Dansları", "Dans Ekibi", "25-09-2021", "Lefkosa", "Kültürel Buluşma", "bandabulya");
-INSERT INTO events (event_id, event_name, event_artist, event_date, event_city, event_description, address)
+INSERT INTO events (event_name, event_artist, event_date, event_city, event_description, address)
 VALUES ("EDM", "ReverseImpact", "1-10-2021", "Lefkosa", "Elektronik Dans Muzik", "Imagine");
-INSERT INTO events (event_id, event_name, event_artist, event_date, event_city, event_description, address)
+INSERT INTO events (event_name, event_artist, event_date, event_city, event_description, address)
 VALUES ("Canlı Muzik", "rast", "10-11-2021", "girne", "konser", "Girne Liman");
 
 INSERT INTO cities (city_name, city_venues, address)
