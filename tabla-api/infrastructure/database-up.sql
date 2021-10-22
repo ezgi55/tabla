@@ -37,7 +37,7 @@ image VARCHAR(250)
 
 DROP TABLE IF EXISTS cities;
 CREATE TABLE cities (
-    city_name VARCHAR(5) NOT NULL,
+    city_name VARCHAR(50) NOT NULL,
     city_venues VARCHAR(50) NOT NULL,
     address VARCHAR(50),
     image VARCHAR(250)
