@@ -16,9 +16,9 @@ USE `tabladb`;
 
 
 DROP TABLE IF EXISTS user_roles;
-CREATE TABLE user_roles (
-    user_role_id int AUTO_INCREMENT PRIMARY KEY,
-    user_type  VARCHAR(50) NOT NULL
+CREATE TABLE user_roles(
+user_role_id int AUTO_INCREMENT PRIMARY KEY,
+user_type VARCHAR(50) NOT NULL
 );
 
 DROP TABLE IF EXISTS users;
