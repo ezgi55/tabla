@@ -14,14 +14,22 @@
     "migrate-down:prod:dry-once": "node node_modules/db-migrate/bin/db-migrate down -c 1 -e prod --dry-run",
     "migrate-down:prod:once": "node node_modules/db-migrate/bin/db-migrate down -c 1 -e prod",
     "coverage": "npm run merge-coverage && nyc report --reporter=lcov --report-dir=full-coverage/ && node src/tools/openFile/index.js full-coverage/lcov-report/index.html",
-    "merge-coverage": "node src/tools/mergeCoverage/index.js"
+    "merge-coverage": "node src/tools/mergeCoverage/index.js",
+    "start": "node server.js"
   },
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.14"
   },
   "dependencies": {
     "db-migrate": "^1.0.0-beta.16",
     "db-migrate-mysql": "^2.2.0",
     "express": "^4.17.1"
-  }
+  },
+  "name": "tabla-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
