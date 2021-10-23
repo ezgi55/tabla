@@ -43,6 +43,16 @@ date VARCHAR(50) NOT NULL,
 description VARCHAR(200)
 );
 
+<<<<<<< HEAD
+DROP TABLE IF EXISTS cities;
+CREATE TABLE cities (
+    city_name VARCHAR(50) NOT NULL,
+    city_venues VARCHAR(50) NOT NULL,
+    address VARCHAR(50),
+    image VARCHAR(250)
+);
+=======
+>>>>>>> 918ba711a81ffd16cc34e8c499b48bab1cee0d1d
 DROP TABLE IF EXISTS venues;
 CREATE TABLE venues (
 venue_id int AUTO_INCREMENT PRIMARY KEY,
