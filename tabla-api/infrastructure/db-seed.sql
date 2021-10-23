@@ -28,8 +28,12 @@ VALUES ("Ahmet", "Akınsql", "gabi1@gmail.com", "12345", "Lefkosa", "05338214396
 INSERT INTO users (first_name, last_name, email, password, city, phone_number, user_role_id)
 VALUES ("muzaffer", "muzmuz", "muzmuz@gmail.com", "12345", "Girne", "05338219669", 2);
 INSERT INTO users (first_name, last_name, email, password, city, phone_number, user_role_id)
+<<<<<<< HEAD
+VALUES ("Kopus", "Akdag", "havhav@gmail.com", "12345", "Lefkosa", "05338219123", 3);
+=======
 VALUES ("Kopus", "Akdag", "havhav@gmail.com", "12345", "Lefkosa", "05338219123", "3");
 
+>>>>>>> 861e9304922f96cbe2fcabec1244dec0f6190f5c
 
 INSERT INTO events (name, artist, date, description)
 VALUES ("Halk Dansları", "Dans Ekibi", "2021-09-25", "Kültürel Buluşma");
