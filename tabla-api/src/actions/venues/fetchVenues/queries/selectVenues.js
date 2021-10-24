@@ -1,4 +1,4 @@
-const { submitQuery } = require("~root/lib/database");
+const { submitQuery } = require("src/actions/venues/fetchVenues/events/fetchEvents/queries/node_modules/~root/lib/database");
 
 
 
