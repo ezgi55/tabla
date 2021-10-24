@@ -9,3 +9,4 @@ module.exports = selectEvents;
 
 //star yerine isteğimizi seçelim
 //your SQL query goes here
+ 

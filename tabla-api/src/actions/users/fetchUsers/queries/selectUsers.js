@@ -9,3 +9,4 @@ module.exports = selectUsers;
 
 //star yerine isteğimizi seçelim
 //your SQL query goes here
+ 

@@ -19,7 +19,7 @@ function mySlowFunction() {
   stopwatch.print();
 }
 */
-
+ 
 let laps = [];
 let startTime;
 

@@ -29,7 +29,7 @@
     "client_sales_channel_id": 579,
     "sales_channel_id": 3
   },
-  {
+  { 
     "integration_id": 6,
     "name": "Amazon Europe",
     "client_integration_name": "Amazon Europe",

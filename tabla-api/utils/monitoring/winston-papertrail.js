@@ -12,7 +12,7 @@
  * https://papertrailapp.com/
  *
  * Based on a previous version (1.x) by Ken Perkins.
- */
+ */ 
 
 const Transport = require("winston-transport");
 const syslogProducer = require("glossy").Produce;

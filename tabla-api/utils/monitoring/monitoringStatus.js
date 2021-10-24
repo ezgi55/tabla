@@ -12,3 +12,4 @@ module.exports = {
   setLoggingStatusTo,
   getLoggingStatus
 };
+ 

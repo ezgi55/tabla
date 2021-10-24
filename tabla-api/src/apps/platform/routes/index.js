@@ -15,4 +15,4 @@ router.get("/users", getUsers)
 
 router.post("/post-event", postEvent)
 router.post("/post-venues", postVenues)
-router.post("/post-users", postusers)
+router.post("/post-users", postusers) 

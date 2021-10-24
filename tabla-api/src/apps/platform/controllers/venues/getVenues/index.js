@@ -13,4 +13,4 @@ const getVenues = async (req, res) => {
   }
 };
 
-module.exports = getVenues;
+module.exports = getVenues; 

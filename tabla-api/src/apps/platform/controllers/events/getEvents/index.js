@@ -13,4 +13,4 @@ const getEvents = async (req, res) => {
   }
 };
 
-module.exports = getEvents;
+module.exports = getEvents; 

@@ -9,3 +9,4 @@ module.exports = selectVenues;
 
 //star yerine isteğimizi seçelim
 //your SQL query goes here
+ 

@@ -21,7 +21,7 @@ Array [
     "client_id": 1,
     "integration_id": "2",
     "name": "Amazon North America",
-  },
+  }, 
   Object {
     "clientIntegrations": Array [
       Object {

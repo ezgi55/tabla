@@ -24,3 +24,4 @@ const nest = (results, transformationsToApply, fieldsToOmit = []) => {
 };
 
 module.exports = nest;
+ 

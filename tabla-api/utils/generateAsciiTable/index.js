@@ -14,3 +14,4 @@ const generateTable = ({
 };
 
 module.exports = generateTable;
+ 

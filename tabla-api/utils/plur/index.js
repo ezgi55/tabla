@@ -10,3 +10,4 @@ const plur = ({ count, singular, plural, showCount = true }) => {
 };
 
 module.exports = plur;
+ 

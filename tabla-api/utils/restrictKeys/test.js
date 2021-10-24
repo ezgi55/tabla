@@ -31,3 +31,4 @@ it("should return original object if no restricted keys are found", () => {
 
   expect(restrictKeys(payload, ["clientId", "nonExistentKey"])).toBe(payload);
 });
+ 

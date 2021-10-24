@@ -16,3 +16,4 @@ it("should return empty object if token is not valid/malformed", () => {
   const payload = parseJWTPayload(TEST_JWT);
   expect(payload).toEqual({});
 });
+ 

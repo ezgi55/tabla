@@ -6,3 +6,4 @@ const stringifyOrNullify = array => {
 };
 
 module.exports = stringifyOrNullify;
+ 

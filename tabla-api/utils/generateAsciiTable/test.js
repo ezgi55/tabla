@@ -13,3 +13,4 @@ it("should generate an ASCII table", () => {
 
   expect(output).toMatchSnapshot();
 });
+ 

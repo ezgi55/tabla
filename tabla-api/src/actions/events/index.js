@@ -10,3 +10,4 @@ const fetchEvents = async () => {
 
 
 module.exports = fetchEvents;
+ 

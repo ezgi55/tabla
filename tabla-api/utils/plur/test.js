@@ -23,7 +23,7 @@ it("should pluralize correctly", () => {
     plur({ count, singular: "apple", plural: "apples", showCount: false })
   ).toBe("apple");
 });
-
+ 
 it("should handle {count} inline", () => {
   expect(
     plur({

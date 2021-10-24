@@ -20,7 +20,7 @@ if (process.env.APP_ENVIRONMENT === "PRODUCTION-NOPE") {
   const winstonPapertrail = new PapertrailTransport(papertrailConnection, {
     hostname: process.env.HOSTNAME
   });
-
+ 
   papertrailConnection.on("error", function noop(err) {
     try {
       // we occasionally get ECONNRESET errors on

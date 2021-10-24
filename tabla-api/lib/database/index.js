@@ -12,7 +12,7 @@ const nestTabularData = require("~root/utils/nestTabularData");
 require("dotenv").config({
   path: path.join(__dirname, ".env")
 });
-
+ 
 // DATABASE_URL is available on DOKKU
 const connectionDetails = process.env.DATABASE_URL
   ? parseMySQLConnectionString(process.env.DATABASE_URL)

@@ -11,3 +11,4 @@ const parseJWTPayload = token => {
 };
 
 module.exports = parseJWTPayload;
+ 

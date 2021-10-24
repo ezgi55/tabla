@@ -23,7 +23,7 @@ const getInfoMessagePlainText = (infoMessage, options) => {
   }
   return infoMessage;
 };
-
+ 
 module.exports = winston.format((info, options = {}) => {
   // eslint-disable-next-line no-param-reassign
   options = {

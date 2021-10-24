@@ -17,3 +17,4 @@ it("should nest tabular result set", () => {
     ])
   ).toMatchSnapshot();
 });
+ 
