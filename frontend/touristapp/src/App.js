@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+import './App.css';
+>>>>>>> master
 
 function App() {
   return (
