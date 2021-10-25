@@ -8,7 +8,11 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 );
 =======
 );
 >>>>>>> master
+=======
+);
+>>>>>>> 320dbb085a3a993802e6cff5bc9015ced0a7bd27

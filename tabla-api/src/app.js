@@ -35,4 +35,61 @@ app.use(router);
 
 app.listen(port, () => monitoring.log(`API listening on port ${port}!`));
 
+<<<<<<< HEAD
 module.exports = app; 
+=======
+app.route('/users')
+   .get(function (req, res) {
+       res.send(req.params)
+   })
+   .post('/users/:first_name/:last_name/:email/:password/:city/:phone_number', 
+   function (req, res) {
+       res.send(req.params)
+   })
+   .post('/users/:user_id/:first_name/:last_name/:email/:password/:city/:phone_number', 
+   function (req, res) {
+       res.send(req.params)
+   })
+   .post('/users/:user_id', function (req, res) {
+       res.send(req.params)
+   })
+
+app.route('/events')
+   .get(function (req, res) {
+       res.send(req.params)
+   })
+   .post('/events/:name/:artist/:date/:description', 
+   function (req, res) {
+       res.send(req.params)
+   })
+   .post('/events/:event_id/:name/:artist/:date/:description', 
+   function (req, res) {
+       res.send(req.params)
+   })
+   .post('/events/:event_id/', function (req, res) {
+       res.send(req.params)
+   })
+
+
+   
+app.route('/venues')
+   .get(function (req, res) {
+       res.send(req.params)
+   })
+   .post('/venues/:name/:type/:phone_number/:adress/:city', 
+   function (req, res) {
+       res.send(req.params)
+       
+   })
+   .post('/venues/:user_id/:name/:type/:phone_number/:adress/:city', 
+   function (req, res) {
+       res.send(req.params)
+       
+   })
+   .post('/venues/:user_id/', function (req, res) {
+       res.send(req.params)
+       
+   })
+
+module.exports = app;
+>>>>>>> 320dbb085a3a993802e6cff5bc9015ced0a7bd27

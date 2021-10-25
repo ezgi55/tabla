@@ -8,13 +8,6 @@ VALUES ("customer");
 INSERT INTO user_roles (user_type)
 VALUES ("host");
 
-
-INSERT INTO events (event_name, event_artist, event_date, event_city, event_description, address)
-VALUES ("Halk Dansları", "Dans Ekibi", "09-09-2021", "Lefkosa", "Kültürel Buluşma", "bandabulya");
-INSERT INTO events (event_name, event_artist, event_date, event_city, event_description, address)
-VALUES ("EDM", "ReverseImpact", "1.10.2021", "Lefkosa", "Elektronik Dans Muzik", "Imagine");
-INSERT INTO events (event_name, event_artist, event_date, event_city, event_description, address)
-VALUES ("Canlı Muzik", "rast", "10.11.2021", "girne", "konser", "Girne Liman");
 INSERT INTO users (first_name, last_name, email, password, city, phone_number, user_role_id)
 VALUES ("Erto", "Coskuner", "erto_coskuner@hotmail.com", "12345", "Lefkosa", "05338708798", 1);
 INSERT INTO users (first_name, last_name, email, password, city, phone_number, user_role_id)
@@ -29,7 +22,10 @@ INSERT INTO users (first_name, last_name, email, password, city, phone_number, u
 VALUES ("muzaffer", "muzmuz", "muzmuz@gmail.com", "12345", "Girne", "05338219669", 2);
 INSERT INTO users (first_name, last_name, email, password, city, phone_number, user_role_id)
 VALUES ("Kopus", "Akdag", "havhav@gmail.com", "12345", "Lefkosa", "05338219123", 3);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 320dbb085a3a993802e6cff5bc9015ced0a7bd27
 
 INSERT INTO events (name, artist, date, description)
 VALUES ("Halk Dansları", "Dans Ekibi", "2021-09-25", "Kültürel Buluşma");
