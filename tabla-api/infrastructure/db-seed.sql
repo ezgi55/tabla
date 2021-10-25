@@ -22,10 +22,6 @@ INSERT INTO users (first_name, last_name, email, password, city, phone_number, u
 VALUES ("muzaffer", "muzmuz", "muzmuz@gmail.com", "12345", "Girne", "05338219669", 2);
 INSERT INTO users (first_name, last_name, email, password, city, phone_number, user_role_id)
 VALUES ("Kopus", "Akdag", "havhav@gmail.com", "12345", "Lefkosa", "05338219123", 3);
-<<<<<<< HEAD
-
-=======
->>>>>>> 320dbb085a3a993802e6cff5bc9015ced0a7bd27
 
 INSERT INTO events (name, artist, date, description)
 VALUES ("Halk Dansları", "Dans Ekibi", "2021-09-25", "Kültürel Buluşma");
