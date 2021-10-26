@@ -1,16 +1,14 @@
-const express = require('express');
-const getVenues = require("../controllers/venues/getVenues")
-const getEvents = require("../controllers/events/getEvents")
-
+const express = require("express");
+const getVenues = require("../controllers/venues/getVenues");
+const getEvents = require("../controllers/events/getEvents");
 
 const router = express.Router();
 
+// Venues
+router.get("/venues", getVenues);
 
-//Venues
-router.get("/venues", getVenues)
-
-//Events
-router.get("/events", getEvents)
+// Events
+router.get("/events", getEvents);
 /*
 router.get("event/:eventId", getEventById)
 //Users
