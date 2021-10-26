@@ -5,11 +5,11 @@ const cors = require("cors");
 const rateLimit = require("express-rate-limit");
 const compression = require("compression");
 const morgan = require("morgan");
-const monitoring = require("~root/utils/monitoring");
+const monitoring = require("../utils/monitoring");
 
 
 // prevent running against production database by mistake
-require("~root/utils/exitIfProductionDatabase")();
+require("../utils/exitIfProductionDatabase")();
 
 const router = require("./apps/platform/routes");
 app.listen(port, () => monitoring.log(`API listening on port ${port}!`));

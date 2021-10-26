@@ -1,5 +1,5 @@
-const fetchVenues = require("~root/actions/venues/fetchVenues");
-const handleAPIError = require("~root/utils/handleAPIError");
+const fetchVenues = require("../../../../../actions/venues/fetchVenues");
+const handleAPIError = require("../../../../../../utils/handleAPIError");
 
 const getVenues = async (req, res) => {
   try {
@@ -13,4 +13,4 @@ const getVenues = async (req, res) => {
   }
 };
 
-module.exports = getVenues; 
+module.exports = getVenues;
